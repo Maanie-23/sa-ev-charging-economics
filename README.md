@@ -41,7 +41,7 @@ sa-ev-charging-economics/
 │
 ├── 01_EV_Analysis.py                          # Data cleaning script
 ├── 02_Feature_Engineering_SA_Analysis.ipynb     # Cost calculations
-├── 03_Visualizations_LinkedIn.ipynb             # Charts and graphs
+├── 03_Visualizations.ipynb             # Charts and graphs
 │
 ├── ev_charging_patterns.csv                     # Original dataset
 ├── ev_charging_patterns_CLEAN.csv               # Cleaned data
@@ -83,14 +83,14 @@ jupyter notebook
 
 Open and run:
 1. `02_Feature_Engineering_SA_Analysis.ipynb`
-2. `03_Visualizations_LinkedIn.ipynb`
+2. `03_Visualizations.ipynb`
 
 ---
 
 ## Data Sources
 
 **EV Charging Dataset**
-- Source: [Kaggle - EV Charging Patterns](https://www.kaggle.com/)
+- Source: [Kaggle - EV Charging Patterns](https://www.kaggle.com/)](https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns)
 - Contains 1,320 charging sessions from US cities
 - Used to analyse cost patterns, then translated to SA context
 
@@ -108,7 +108,7 @@ Open and run:
 ### 1. Data Cleaning
 - Removed duplicate and corrupted rows
 - Handled missing values with flags
-- Standardized charger type labels
+- Standardised charger type labels
 - Result: 1,193 usable charging sessions
 
 ### 2. Feature Engineering
